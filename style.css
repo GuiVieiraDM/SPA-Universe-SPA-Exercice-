@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  color: #C4C4CC;
+ }
+
+.bg1, .bg2, .bg3 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+}
+
+.page-wrapper {
+  display: grid;
+  place-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #C4C4CC;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  font-size: 2.2rem;
+  padding: 4rem 0 4rem 7.2rem;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 3.2rem;
+}
+
+nav a:focus {
+  font-weight: 700;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  margin-top: 10.2rem;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 6.0rem;
+  align-self: self-start;
+}
+
+#app p {
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  width: 65.0rem;
+  height: 20rem;
+}
+
+button {
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: .2rem solid #FFFFFF;
+  border-radius: .5rem;
+  padding: 1.2rem 3.2rem;
+  width: fit-content;
+  color: #C4C4CC;
+  font-weight: 700;
+}
